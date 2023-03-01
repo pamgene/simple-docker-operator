@@ -19,7 +19,7 @@ docker push tercen/simple_docker_operator:$VERSION
 } > operator.json
 
 git add -A && git commit -m "$VERSION" && git tag $VERSION && git push && git push --tags
-
+ 
 ```
 
 # inspect
