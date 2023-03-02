@@ -28,7 +28,7 @@ git add -A && git commit -m "$VERSION" && git tag $VERSION && git push && git pu
 docker run --rm --entrypoint=bash tercen/simple_docker_operator:$VERSION -c "R --version"
 docker run -it --rm --entrypoint=bash tercen/simple_docker_operator:$VERSION
 ```
- 
+
 # push
 
 ```shell
